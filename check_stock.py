@@ -3,7 +3,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-URL = "https://example.com"  # 감지 대상 URL
+URL = "https://urbansports.kr/shop_view?idx=137"  # 감지 대상 URL
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 
 def send_discord_message(message):
