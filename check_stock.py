@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-URL = "https://urbansports.kr/shop_view?idx=137"
+URL = "https://kmznw210-sasa.github.io/alert-hangangriver_boat/"
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 
 def send_discord_message(message):
